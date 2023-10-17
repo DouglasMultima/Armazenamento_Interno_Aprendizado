@@ -19,9 +19,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
+        android:id="@+id/text_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Form produto"
+        tools:text="Titulo"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
